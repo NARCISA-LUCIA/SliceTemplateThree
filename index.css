@@ -1,0 +1,53 @@
+.template-box {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	flex-grow: 1;
+	margin: 40px 60px 60px;
+}
+
+.header {
+	flex-direction: row;
+	width: 100%;
+	height: 80px;
+	padding: 50px 0 0;
+}
+
+.template-box-1 {
+	display: flex;
+	width: 100%;
+	gap: 10px;
+	height: 400px;
+}
+.nav {
+	flex: 1;
+	padding: 180px 0 0;
+}
+
+.content {
+	flex: 3;
+	padding: 180px 0 0;
+}
+
+.aside {
+	flex: 2;
+	padding: 180px 0 0;
+}
+
+.header,
+.nav,
+.content,
+.aside,
+.footer {
+	gap: 10px;
+	background-color: rgba(218, 133, 22, 0.97);
+}
+
+.footer {
+	width: 100%;
+	height: 80px;
+	padding: 50px 0 0;
+}
